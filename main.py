@@ -47,7 +47,7 @@ def qlm_with_smoothing(documents, query, lambda_val=0.5):
 
 if __name__ == "__main__":
     n_documents = int(input().strip())
-    documents = [input().strip() for _ in range(n_docs)]
+    documents = [input().strip() for _ in range(n_documents)]
     query = input().strip()
 
     result = qlm_with_smoothing(documents, query, lambda_val=0.5)
